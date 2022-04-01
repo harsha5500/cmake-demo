@@ -1,0 +1,5 @@
+# Editors
+*.code-workspace
+
+# OS
+.DS_Store
