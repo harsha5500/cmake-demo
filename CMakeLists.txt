@@ -1,0 +1,17 @@
+set(PROJECT_NAME cmake-demo)
+
+cmake_minimum_required(VERSION 3.20)
+project(${PROJECT_NAME} C)
+set(CMAKE_C_STANDARD 11)
+
+# set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
+
+
+# find_library(SDL2_LIBRARY NAME SDL2)
+# message ([STATUS] "SDL2_INCLUDE_DIR >> " ${SDL2_INCLUDE_DIRS})
+# message ([STATUS] "SDL2_LIBRARY >> " ${SDL2_LIBRARIES})
+include_directories(includes)
+file(GLOB SOURCES src/*.c)
+add_executable(${PROJECT_NAME} ${SOURCES})
+# include_directories(${PROJECT_NAME} ${SDL2_INCLUDE_DIRS})
+# target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES})
