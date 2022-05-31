@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/Users/harsha/src/cmake-demo/build/src",
-  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -o CMakeFiles/main.dir/main.c.o -c /Users/harsha/src/cmake-demo/src/main.c",
-  "file": "/Users/harsha/src/cmake-demo/src/main.c"
-}
-]
