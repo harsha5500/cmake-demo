@@ -20,3 +20,7 @@ To install creata a build directory, generate the required makefile using Cmake 
     cd build
     cmake ..
     make
+
+
+    export SDL2DIR=/usr/local/include/SDL2
+    export SDL2IMAGEDIR
